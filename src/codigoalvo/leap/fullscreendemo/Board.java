@@ -73,7 +73,7 @@ public class Board extends Frame implements ActionListener {
 			if (circVector.isEmpty())
 				return;
 
-			List<Circulo> removeList = new ArrayList<>();
+			List<Circulo> removeList = new ArrayList<Circulo>();
 			for (Circulo circle : circVector) {
 				if (!circle.isVisible())
 					removeList.add(circle);
